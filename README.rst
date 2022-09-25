@@ -3,6 +3,23 @@ quadrantic
 
 Determination of quadrants based on angle, coordinates and others
 
+.. image:: https://github.com/earthobservations/quadrantic/workflows/Tests/badge.svg
+   :target: https://github.com/earthobservations/quadrantic/actions?workflow=Tests
+.. image:: https://codecov.io/gh/earthobservations/quadrantic/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/earthobservations/quadrantic
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+.. image:: https://img.shields.io/pypi/pyversions/quadrantic.svg
+   :target: https://pypi.python.org/pypi/quadrantic/
+.. image:: https://img.shields.io/pypi/v/quadrantic.svg
+   :target: https://pypi.org/project/quadrantic/
+.. image:: https://img.shields.io/pypi/status/quadrantic.svg
+   :target: https://pypi.python.org/pypi/quadrantic/
+.. image:: https://pepy.tech/badge/quadrantic/month
+   :target: https://pepy.tech/project/quadrantic
+.. image:: https://img.shields.io/github/license/earthobservations/quadrantic
+   :target: https://github.com/earthobservations/quadrantic/blob/main/LICENSE
+
 Overview
 ********
 
