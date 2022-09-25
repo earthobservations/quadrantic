@@ -75,9 +75,6 @@ profile = "black"
 multi_line_output = 3
 
 [tool.flakeheaven]
-exclude = [
-    "example/climate_observations.ipynb"
-]
 format = "grouped"
 max-line-length = 120
 extended_default_ignore = []
@@ -103,7 +100,6 @@ isort = "isort quadrantic tests"
 format = ["black", "isort"]
 lint = "flakeheaven lint quadrantic tests"
 test = "pytest -vvv tests"
-
 
 [build-system]
 requires = ["poetry-core"]
