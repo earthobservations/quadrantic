@@ -134,7 +134,7 @@ class QuadrantFromCoords(_QuadrantBase):
     def __init__(self, here: _POINT_TYPE):
         """
 
-        :param here: Point that is being compared against the other location
+        :param here: Point (lonlat) that is being compared against the other location
         """
         self.here = Point(here)
 
@@ -142,7 +142,7 @@ class QuadrantFromCoords(_QuadrantBase):
         """
         Determine quadrant based on latlon comparison of here and there.
 
-        :param there: Point of other location for that the quadrant is being determined
+        :param there: Point (lonlat) of other location for that the quadrant is being determined
         :return: list of quadrants Q
         """
         here = self.here
