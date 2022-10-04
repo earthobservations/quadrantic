@@ -9,7 +9,7 @@ from matplotlib.patches import Rectangle
 from quadrantic import QuadrantFromAngle, AngleUnit, Q
 import matplotlib.pyplot as plt
 
-plt.style.use('ggplot')
+plt.style.use("ggplot")
 
 
 def visualize_quadrant_from_angle(degree: float, unit: AngleUnit):
